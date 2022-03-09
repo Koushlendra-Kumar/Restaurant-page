@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', Courier, monospace;
+    background-image: url(piotr-szulawski-DCmUhk54F6M-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 212, 67);
+}
+@font-face {
+    font-family: 'dancing-script';
+    src: url(DancingScript-Bold.ttf);
+}
+#content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr 80px;
+}
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 130px);
+    grid-template-rows: 1fr;
+}
+.restaurant-name{
+    font-family: 'dancing-script';
+    font-size: 40px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav-links{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.main-body{
+    color: white;
+    font-weight: bold;
+    min-height: 500px;
+    width: 80%;
+    margin: 40px 150px 40px 150px;
+    background-color: rgba(255, 252, 70, 0.7);
+    text-align: center;
+}
+.menu-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-body img{
+    cursor: pointer;
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+}
+.credit-body a{
+    display: block;
+    font-size: 20px;
+    margin:30px;
+    background-color: white;
+}
+.slogan{
+    background-color: black;
+    font-family: 'dancing-script';
+    color: rgb(255, 255, 0);
+    font-size: 70px;
+    padding: 20px;
+}
+
+.image img{
+    margin-top: 20px;
+    height: 400px;
+    width: 80%;
+}
+.description{
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    margin: 50px;
+}
+
+.footer{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
