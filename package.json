@@ -1,8 +1,15 @@
 {
-  "name": "",
-  "version": "",
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Error: no text specified\" && exit 1",
+    "build": "webpack"
+  },
   "devDependencies": {
-    "webpack": "^5.69.1",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   }
 }
