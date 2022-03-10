@@ -35,6 +35,7 @@ function openFrame(){
     creditBtn.textContent = 'Credit';
     footer.textContent = 'Copyright \u00A9 The Odin Project 2022';
 
+    openHome();
     homeBtn.addEventListener('click',openHome);
     menuBtn.addEventListener('click',openMenu);
     creditBtn.addEventListener('click', openCredits);
