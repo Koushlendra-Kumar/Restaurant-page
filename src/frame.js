@@ -1,4 +1,6 @@
 import openHome from "./home";
+import openMenu from "./menu";
+import openCredits from "./credit";
 
 function openFrame(){
     const content = document.querySelector('#content');
@@ -34,8 +36,8 @@ function openFrame(){
     footer.textContent = 'Copyright \u00A9 The Odin Project 2022';
 
     homeBtn.addEventListener('click',openHome);
-    // menuBtn.addEventListener('click',openMenu);
-    // creditBtn.addEventListener('click', openCredits);
+    menuBtn.addEventListener('click',openMenu);
+    creditBtn.addEventListener('click', openCredits);
 }
 
 export default openFrame;
