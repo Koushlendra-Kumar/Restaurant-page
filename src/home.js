@@ -1,3 +1,5 @@
+import homeImg from '../dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg';
+
 function openHome(){
     const homeBody = document.querySelector('.main-body');
     homeBody.classList.add('home-body');
@@ -22,6 +24,6 @@ function openHome(){
     marketingSlogan.textContent = '"Life\'s too short for boring food."';
     description.textContent = 'Good food is always cooking! Go ahead, order some yummy items from the menu.';
 
-    imgElem.src = './images/lily-banse--YHSwy6uqvk-unsplash.jpg';
+    imgElem.src = homeImg;
 }
 export default openHome;
