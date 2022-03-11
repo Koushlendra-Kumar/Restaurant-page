@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _dist_images_lily_banse_YHSwy6uqvk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg */ \"./dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg\");\n\n\nfunction openHome(){\n    const homeBody = document.querySelector('.main-body');\n    homeBody.classList.add('home-body');\n    homeBody.textContent = '';\n    homeBody.classList.remove('menu-body');\n    homeBody.classList.remove('credit-body');\n\n    const marketingSlogan = document.createElement('div');\n    const homeImage = document.createElement('div');\n    const imgElem = new Image();\n    const description = document.createElement('div');\n\n    marketingSlogan.classList.add('slogan');\n    homeImage.classList.add('image');\n    description.classList.add('description');\n\n    homeBody.appendChild(marketingSlogan);\n    homeBody.appendChild(homeImage);\n    homeBody.appendChild(description);\n    homeImage.appendChild(imgElem);\n\n    marketingSlogan.textContent = '\"Life\\'s too short for boring food.\"';\n    description.textContent = 'Good food is always cooking! Go ahead, order some yummy items from the menu.';\n\n    imgElem.src = _dist_images_lily_banse_YHSwy6uqvk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__;\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\n\nfunction openHome(){\n    const homeBody = document.querySelector('.main-body');\n    homeBody.classList.add('home-body');\n    homeBody.textContent = '';\n    homeBody.classList.remove('menu-body');\n    homeBody.classList.remove('credit-body');\n\n    const marketingSlogan = document.createElement('div');\n    const homeImage = document.createElement('div');\n    const imgElem = new Image();\n    const description = document.createElement('div');\n\n    marketingSlogan.classList.add('slogan');\n    homeImage.classList.add('image');\n    description.classList.add('description');\n\n    homeBody.appendChild(marketingSlogan);\n    homeBody.appendChild(homeImage);\n    homeBody.appendChild(description);\n    homeImage.appendChild(imgElem);\n\n    marketingSlogan.textContent = '\"Life\\'s too short for boring food.\"';\n    description.textContent = 'Good food is always cooking! Go ahead, order some yummy items from the menu.';\n\n    imgElem.src = '../dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg';\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -227,16 +227,6 @@ eval("module.exports = __webpack_require__.p + \"f9413a4fa93cb839c9f8.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"831f7114f61c13a966f6.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg":
-/*!*********************************************************!*\
-  !*** ./dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg ***!
-  \*********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"6ef6db913df93a631506.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/lily-banse--YHSwy6uqvk-unsplash.jpg?");
 
 /***/ }),
 
