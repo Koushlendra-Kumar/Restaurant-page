@@ -9,7 +9,7 @@ function openHome(){
 
     const marketingSlogan = document.createElement('div');
     const homeImage = document.createElement('div');
-    const imgElem = document.createElement('img');
+    const imgElem = new Image();
     const description = document.createElement('div');
 
     marketingSlogan.classList.add('slogan');
