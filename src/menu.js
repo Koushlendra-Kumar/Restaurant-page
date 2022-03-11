@@ -16,12 +16,12 @@ function openMenu(){
     mainBody.appendChild(foodImg4);
     mainBody.appendChild(foodImg5);
     mainBody.appendChild(foodImg6);
-    foodImg1.setAttribute('src','../src/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');
-    foodImg2.setAttribute('src','../src/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');
-    foodImg3.setAttribute('src','../src/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg');
-    foodImg4.setAttribute('src','../src/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg');
-    foodImg5.setAttribute('src','../src/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg');
-    foodImg6.setAttribute('src','../src/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg');
+    foodImg1.setAttribute('src','./images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');
+    foodImg2.setAttribute('src','./images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');
+    foodImg3.setAttribute('src','./images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg');
+    foodImg4.setAttribute('src','./images/brooke-lark-jUPOXXRNdcA-unsplash.jpg');
+    foodImg5.setAttribute('src','./images/brooke-lark-M4E7X3z80PQ-unsplash.jpg');
+    foodImg6.setAttribute('src','./images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg');
 }
 
 export default openMenu;

@@ -22,6 +22,6 @@ function openHome(){
     marketingSlogan.textContent = '"Life\'s too short for boring food."';
     description.textContent = 'Good food is always cooking! Go ahead, order some yummy items from the menu.';
 
-    imgElem.src = '../src/images/lily-banse--YHSwy6uqvk-unsplash.jpg';
+    imgElem.src = './images/lily-banse--YHSwy6uqvk-unsplash.jpg';
 }
 export default openHome;
