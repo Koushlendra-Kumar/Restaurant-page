@@ -1,10 +1,3 @@
-import img1 from '../dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg';
-import img2 from '../dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg';
-import img3 from '../dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg';
-import img4 from '../dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg'
-import img5 from '../dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg';
-import img6 from '../dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg';
-
 
 function openMenu(){
     const mainBody = document.querySelector('.main-body');
@@ -24,12 +17,12 @@ function openMenu(){
     mainBody.appendChild(foodImg4);
     mainBody.appendChild(foodImg5);
     mainBody.appendChild(foodImg6);
-    foodImg1.setAttribute('src', img1);
-    foodImg2.setAttribute('src', img2);
-    foodImg3.setAttribute('src', img3);
-    foodImg4.setAttribute('src', img4);
-    foodImg5.setAttribute('src', img5);
-    foodImg6.setAttribute('src', img6);
+    foodImg1.setAttribute('src', '../dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');
+    foodImg2.setAttribute('src', '../dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');
+    foodImg3.setAttribute('src','../dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg' );
+    foodImg4.setAttribute('src', '../dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg');
+    foodImg5.setAttribute('src', '../dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg');
+    foodImg6.setAttribute('src', '../dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg');
 }
 
 export default openMenu;

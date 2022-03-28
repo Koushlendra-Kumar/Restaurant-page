@@ -166,67 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fra
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _dist_images_anh_nguyen_kcA_c3f_3FE_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg */ \"./dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg\");\n/* harmony import */ var _dist_images_anna_pelzer_IGfIGP5ONV0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg */ \"./dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg\");\n/* harmony import */ var _dist_images_asnim_ansari_SqYmTDQYMjo_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg */ \"./dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg\");\n/* harmony import */ var _dist_images_brooke_lark_jUPOXXRNdcA_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg */ \"./dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg\");\n/* harmony import */ var _dist_images_brooke_lark_M4E7X3z80PQ_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg */ \"./dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg\");\n/* harmony import */ var _dist_images_charlesdeluvio_D_vDQMTfAAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg */ \"./dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg\");\n\n\n\n\n\n\n\n\nfunction openMenu(){\n    const mainBody = document.querySelector('.main-body');\n    mainBody.textContent = '';\n    mainBody.classList.remove('credit-body');\n    mainBody.classList.remove('home-body');\n    mainBody.classList.add('menu-body');\n    const foodImg1 = document.createElement('img');\n    const foodImg2 = document.createElement('img');\n    const foodImg3 = document.createElement('img');\n    const foodImg4 = document.createElement('img');\n    const foodImg5 = document.createElement('img');\n    const foodImg6 = document.createElement('img');\n    mainBody.appendChild(foodImg1);\n    mainBody.appendChild(foodImg2);\n    mainBody.appendChild(foodImg3);\n    mainBody.appendChild(foodImg4);\n    mainBody.appendChild(foodImg5);\n    mainBody.appendChild(foodImg6);\n    foodImg1.setAttribute('src', _dist_images_anh_nguyen_kcA_c3f_3FE_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__);\n    foodImg2.setAttribute('src', _dist_images_anna_pelzer_IGfIGP5ONV0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__);\n    foodImg3.setAttribute('src', _dist_images_asnim_ansari_SqYmTDQYMjo_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2__);\n    foodImg4.setAttribute('src', _dist_images_brooke_lark_jUPOXXRNdcA_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3__);\n    foodImg5.setAttribute('src', _dist_images_brooke_lark_M4E7X3z80PQ_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4__);\n    foodImg6.setAttribute('src', _dist_images_charlesdeluvio_D_vDQMTfAAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5__);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
-
-/***/ }),
-
-/***/ "./dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg":
-/*!*********************************************************!*\
-  !*** ./dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg ***!
-  \*********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"b7d4627eb24556b90c29.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg":
-/*!**********************************************************!*\
-  !*** ./dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"e97711a35b95c253a1fe.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg":
-/*!***********************************************************!*\
-  !*** ./dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg ***!
-  \***********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"83f3960f7e2ac3f75aca.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg":
-/*!**********************************************************!*\
-  !*** ./dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"23c99fe1412738bf72ec.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg":
-/*!**********************************************************!*\
-  !*** ./dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"4e6cc11a3a1be9591eb5.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg":
-/*!*************************************************************!*\
-  !*** ./dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"8d68481bc9d5ba2d09cc.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\nfunction openMenu(){\n    const mainBody = document.querySelector('.main-body');\n    mainBody.textContent = '';\n    mainBody.classList.remove('credit-body');\n    mainBody.classList.remove('home-body');\n    mainBody.classList.add('menu-body');\n    const foodImg1 = document.createElement('img');\n    const foodImg2 = document.createElement('img');\n    const foodImg3 = document.createElement('img');\n    const foodImg4 = document.createElement('img');\n    const foodImg5 = document.createElement('img');\n    const foodImg6 = document.createElement('img');\n    mainBody.appendChild(foodImg1);\n    mainBody.appendChild(foodImg2);\n    mainBody.appendChild(foodImg3);\n    mainBody.appendChild(foodImg4);\n    mainBody.appendChild(foodImg5);\n    mainBody.appendChild(foodImg6);\n    foodImg1.setAttribute('src', '../dist/images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');\n    foodImg2.setAttribute('src', '../dist/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg');\n    foodImg3.setAttribute('src','../dist/images/asnim-ansari-SqYmTDQYMjo-unsplash.jpg' );\n    foodImg4.setAttribute('src', '../dist/images/brooke-lark-jUPOXXRNdcA-unsplash.jpg');\n    foodImg5.setAttribute('src', '../dist/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg');\n    foodImg6.setAttribute('src', '../dist/images/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg');\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
